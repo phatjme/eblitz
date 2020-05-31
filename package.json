@@ -1,0 +1,24 @@
+{
+  "name": "eblitz",
+  "version": "1.0.0",
+  "description": "eBlitz Marketing Site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phatjme/eblitz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phatjme/eblitz/issues"
+  },
+  "homepage": "https://github.com/phatjme/eblitz#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

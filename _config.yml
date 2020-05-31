@@ -18,21 +18,69 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
+title: eBlitz | eSports & Gamer Matchmaking App | Meet Your Match
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  It's time to level-up your gaming with new teammates. Find vetted players for CSGO, Call of Duty, Battlefield, Fortnite, and more. Meet your match. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://www.eblitz.gg" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: eblitz
+github_username:  phatjme
+
+author: phatjme
+twitter:
+  username: phatjme
+  card: summary
+logo: /favicon.png
+social:
+  name: eBlitz
+  links:
+    - https://twitter.com/eblitz
+    - https://www.instagram.com/eblitz
+# webmaster_verifications:
+  # google: 1234
+  # bing: 1234
+lang: en_GB
+
+future: true
+
+permalink: blog/:title
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - webpack
+  - README.md 
+  - build.sh 
+  - package-lock.json
+  - package.json
+
+assets:
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+  sources:
+    - assets/css
+    - assets/fonts
+    - assets/img
+
+sass:
+  load_paths: 
+    - _sass
+    - node_modules
+  style: compressed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
