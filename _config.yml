@@ -52,19 +52,19 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - webpack
-  - README.md 
-  - build.sh 
-  - package-lock.json
-  - package.json
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+#   - webpack
+#   - README.md 
+#   - build.sh 
+#   - package-lock.json
+#   - package.json
 
 assets:
   autoprefixer:
